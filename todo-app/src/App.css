@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* App.css */  
+
+/* Reset some basic elements */  
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f4f4f4;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+}  
+
+.container {  
+    background: white;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    text-align: center;  
+}  
+
+h1 {  
+    margin-bottom: 20px;  
+}  
+
+.todo-form {  
+    display: flex;  
+    flex-direction: column;  
+    gap: 10px;  
+}  
+
+label {  
+    font-weight: bold;  
+}  
+
+input[type="text"] {  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+    outline: none;  
+    transition: border-color 0.3s;  
+}  
+
+input[type="text"]:focus {  
+    border-color: #007BFF;  
+}  
+
+button {  
+    padding: 8px;  
+    background-color: #007BFF;  
+    color: white;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    transition: background-color 0.3s; 
+    margin-left: 5px; 
+    margin-top: 5px;
+}  
+
+button:hover {  
+    background-color: #0056b3;  
+}
